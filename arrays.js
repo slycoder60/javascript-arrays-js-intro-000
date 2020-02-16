@@ -5,5 +5,5 @@ function addElementToBeginningOfArray(Burgers= ['Chicken Burgers', 'Camal Burger
 
 }
 function destructivelyAddElementToBeginningOfArray(2 = [1]){
-  return myArray.unshift("foo")
+  return 2.unshift("foo")
 }
