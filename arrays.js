@@ -9,5 +9,5 @@ function destructivelyAddElementToBeginningOfArray(myArray = ['food']){
 }
 
 function addElementToEndOfArray(evenNumbers = [2,4,6]){
-  return [evenNumbers, 8]
+  return [...evenNumbers, 8]
 }
