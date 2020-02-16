@@ -11,3 +11,7 @@ function destructivelyAddElementToBeginningOfArray(myArray = ['food']){
 function addElementToEndOfArray(evenNumbers = [2,4,6]){
   return [...evenNumbers, "foo"]
 }
+
+function destructivelyAddElementToEndOfArray(oddNumbers = [1,2,3]){
+  return oddNumbers.push('foo')
+}
