@@ -14,5 +14,6 @@ function addElementToEndOfArray(evenNumbers = [2,4,6]){
 }
 
 function destructivelyAddElementToEndOfArray(oddNumbers = [1,2]){
-  return oddNumbers.push('foo')
+oddNumbers.push('foo')
+  return oddNumbers
 }
