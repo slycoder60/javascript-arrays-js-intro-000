@@ -4,6 +4,6 @@ function addElementToBeginningOfArray(Burgers= ['Chicken Burgers', 'Camal Burger
   return ['foo', ...Burgers]
 
 }
-function destructivelyAddElementToBeginningOfArray(myArray = [1]){
+function destructivelyAddElementToBeginningOfArray(2 = [1]){
   return myArray.unshift("foo")
 }
