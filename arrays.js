@@ -19,5 +19,6 @@ oddNumbers.push('foo')
   return oddNumbers
 }
 
-function accessElementInArray(familyMembers['mom', 'dad','brother'])
+function accessElementInArray(familyMembers['mom', 'dad','brother']){
 return familyMembers([0])
+}
