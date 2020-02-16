@@ -13,6 +13,6 @@ function addElementToEndOfArray(evenNumbers = [2,4,6]){
   return [...evenNumbers, "foo"]
 }
 
-function destructivelyAddElementToEndOfArray(oddNumbers = [1]){
+function destructivelyAddElementToEndOfArray(oddNumbers = [1,2]){
   return oddNumbers.push('foo')
 }
