@@ -7,7 +7,7 @@ function addElementToBeginningOfArray(Burgers= ['Chicken Burgers', 'Camal Burger
 function destructivelyAddElementToBeginningOfArray(myArray = [1,2]){
     return myArray.unshift('foo')
   }
-}
+
 
 function addElementToEndOfArray(evenNumbers = [2,4,6]){
   return [...evenNumbers, "foo"]
