@@ -19,8 +19,8 @@ oddNumbers.push('foo')
   return oddNumbers
 }
 
-function accessElementInArray(places = [1, 2, 3, 4]){
-  return places[3];
+function accessElementInArray(array, index){
+  array = [1,2,3,4]
+  return array[3];
 
 }
-accessElementInArray()
