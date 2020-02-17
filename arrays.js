@@ -20,5 +20,6 @@ oddNumbers.push('foo')
 }
 
 function accessElementInArray(places = [1, 2, 3, 4]){
-  return places[3]
+  return places[3];
+  accessElementInArray()
 }
